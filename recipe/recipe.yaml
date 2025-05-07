@@ -34,6 +34,8 @@ tests:
       imports:
         - django_tasks
       pip_check: true
+      python_version:
+        - ${{ python_min }}.*
 
 about:
   summary: An implementation and backport of background workers and tasks in Django
