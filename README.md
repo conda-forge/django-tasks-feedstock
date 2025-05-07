@@ -11,6 +11,10 @@ Summary: An implementation and backport of background workers and tasks in Djang
 
 Development: https://github.com/RealOrangeOne/django-tasks
 
+Documentation: https://github.com/RealOrangeOne/django-tasks/blob/master/README.md
+
+An implementation and backport of background workers and tasks in Django, as defined in [DEP 0014](https://github.com/django/deps/blob/main/accepted/0014-background-workers.rst)
+
 Current build status
 ====================
 
