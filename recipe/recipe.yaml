@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-tasks
-  version: "0.9.0"
+  version: "0.10.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_tasks-${{ version }}.tar.gz
-  sha256: 971b3829efeee68147f7deced8d21b907131b11ec7953af83eb94b11f128a24d
+  sha256: 1505d52e35b354091fc9a24d1446323c12d99c63fe58b63c31b5a1304177d8e8
 
 build:
   number: 0
